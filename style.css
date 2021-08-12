@@ -10,6 +10,28 @@ body {
   flex-direction: column;
 }
 
+div.gray_line{
+  background-image: url("./img/hr-img.png");
+  background-repeat: repeat-x repeat-y;
+  width: 900px;
+  height: 20px;
+  margin-bottom: 50px;
+
+}
+
+div.gray_line_2{
+  background-image: url("./img/hr-img.png");
+  background-repeat: repeat-x repeat-y;
+  width: 900px;
+  height: 20px;
+}
+
+/* div.print_image{
+  float: right;
+} */
+
+  
+
 main p {
   margin-top: 15px;
   font-family: 'Times New Roman', Times, serif;
@@ -24,6 +46,7 @@ header{
 header h1 span {
   font-family: Arial, Helvetica, sans-serif;
   font-size: 20px;
+  
 
 }
 
@@ -113,9 +136,10 @@ form {
   margin-top: 20px;
   background-image: url("./img/list-bg.png");
   width: 901px;
+  margin-bottom: 30px;
 }
 
-body h1 {
+body nav h1 {
   font-family:'Times New Roman', Times, serif;
   font-size: 20px;
   font-weight: bold;
@@ -129,12 +153,35 @@ body h1 span {
   
 }
 
-body h1:first-child {
+.chocolate {
   font-family:Arial, Helvetica, sans-serif;
   font-size: 30px;
 }
 
 body nav img {
   margin-right: 10px;
+}
+
+button{
+  margin-left: 160px;
+  height: 50px;
+  width: 150px;
+  color: white;
+  background-color: #bc7058;
+  border: none;
+}
+
+footer{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.footer_img{
+  padding-bottom: 16px;
+}
+
+main i{
+  margin-left: 400px;
 }
 
