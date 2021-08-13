@@ -4,10 +4,10 @@
 
 body {
   font-family: Arial, Helvetica, sans-serif;
-  display: flex;
+  /* display: flex;
   justify-content: center;
   align-items: center;
-  flex-direction: column;
+  flex-direction: column; */
 }
 
 main p {
@@ -138,3 +138,8 @@ body nav img {
   margin-right: 10px;
 }
 
+footer {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
